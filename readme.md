@@ -1,1 +1,3 @@
-![Tela do sistema](img/fusca1971-07.jpg)  
+<p align="center">
+  <img src="img/Tech.gif" alt="Tela do sistema" width="500"/>
+</p>

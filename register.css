@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background-color:white;     
+}
+header {
+    font-family: oswald, sans-serif;
+    padding: 10px 300px;
+    text-align: center;
+    background-color:cornflowerblue;
+    display:flex;
+}
+nav ul {
+    padding: 10px;
+    list-style: none;
+    margin-top: 2%;
+}
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+}
+nav a {
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+#logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    margin-top: 10%;
+}
+
+.container3 {
+    padding: 1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-items:inherit;
+}
+
+#dataForm2 {
+    font-size: center;
+    cursor: pointer;
+}
+#dataForm2 label,
+#dataForm2 input {
+  display: block;
+  margin: 10px auto; /* Centraliza e dá espaço */
+  text-align: left;  /* Se quiser o label alinhado à esquerda */
+  width: 300px;      /* Ajuste a largura conforme desejado */
+}
+
+#dataForm2 button {
+  margin-top: 15px;
+}
+
+input {
+    height: 20px;
+    width: 250px;
+}
+
+button {
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    text-decoration: underline;
+    background-color: cyan;
+    color:black
+}
+
+#resultContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    padding: 15px;
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.logomarca {
+    width: 60px;       /* define a largura da imagem */
+    height: auto;      /* ajusta a altura proporcionalmente */
+}

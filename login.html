@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<header id="topo">
+
+    <div id="logo">
+        <img src="img/logo.png" alt="company" class="logomarca">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Volta ao início</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="produtos.html">Nosso produtos</a></li>
+            <li><a href="login.html">Faça o Login</a></li>
+        </ul>    
+    </nav>
+</header>
+<body>
+    <h1>Faça seu login aqui</h1>
+
+    <div class="container2">
+        <form id="dataForm">
+
+            <label for="name">Usuário</label>
+            <input type="text" id="userName" required />
+
+            <label for="cpf">cpf</label>
+            <input type="number" id="cpfPass" required />
+
+            <label for="data">Data Nascimento</label>
+            <input type="date" id="datePass" required />
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senhaPass" required />
+
+
+
+            </div class= "registrar">
+             <a href="register.html">Registre-se aqui</a>          
+            </div>
+
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+   
+        <div id="resultContainer"></div>
+
+    
+
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<header id="topo">
+
+    <div id="logo">
+        <img src="img/logo.png" alt="company" class="logomarca">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Volta ao início</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="produtos.html">Nosso produtos</a></li>
+            <li><a href="login.html">Faça o Login</a></li>
+        </ul>    
+    </nav>
+</header>
+<body>
+    <h1>Faça o seu cadastro aqui</h1>
+
+    <div class="container3">
+        <form id="registerForm">
+
+            <label for="name">Usuário</label>
+            <input type="text" id="nameUser" required />
+
+            <label for="documento">Cpf</label>
+            <input type="number" id="cpfUser" required />
+
+            <label for="nascimento">Data de Nascimento</label>
+            <input type="date" id="dateUser" required />
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senhaPass" required />
+
+           
+
+            <button type="submit">Cadastrar</button>
+
+        </form>
+
+   
+
+        <div id="resultContainer"></div>
+
+    
+
+    <script src="register.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background-color:white;     
+}
+header {
+    font-family: oswald, sans-serif;
+    padding: 10px 300px;
+    text-align: center;
+    background-color:cornflowerblue;
+    display:flex;
+}
+nav ul {
+    padding: 10px;
+    list-style: none;
+    margin-top: 2%;
+}
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+}
+nav a {
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+#logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+#fotos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-image: url("img/fundo.jpg");
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
+    background-repeat: no-repeat; /* Impede que a imagem seja repetida */
+    background-position: center; /* Centraliza a imagem */ 
+}
+.rec-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 0%;
+    text-align: right;
+    width: 100px;
+}
+figcaption {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #8B0000;
+    padding: 10% 0%;
+    text-align: center;
+}
+
+.inicio {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.inicio h1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+Footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0000CD;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    border-bottom: 10%;
+    text-align: center;
+    border: 0.5px solid #000;
+    line-height: 2; /* 2 vezes o tamanho da fonte */
+    background-color: #E6E6FA;
+}
+.contato3 {
+    flex: 1; /* Distribui o espaço igualmente */
+    text-align: center;
+    display: flex;
+    line-height: 2;
+    justify-content: space-between; /* Espaço uniforme entre os textos */
+    gap: 20px; /* Espaço entre os textos */
+    line-height: 2; /* 1.5 vezes o tamanho da fonte */
+    margin-right: 12%;
+    margin-left: 10%;
+}
+.logomarca {
+    width: 60px;       /* define a largura da imagem */
+    height: auto;      /* ajusta a altura proporcionalmente */
+}

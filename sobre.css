@@ -1,0 +1,77 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background-color:white;    
+    background-image: url('img/empresa.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    height: 100vh; /* Garante que ocupe toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+     
+}
+header {
+    font-family: oswald, sans-serif;
+    padding: 10px 300px;
+    text-align: center;
+    background-color:cornflowerblue;
+    display:flex;
+}
+nav ul {
+    padding: 10px;
+    list-style: none;
+    margin-top: 2%;
+}
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+}
+nav a {
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+#logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+.sobreNos {
+    padding: 0%;
+    margin: 10px;
+    box-sizing: border-box;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.5); /* Preto com 50% de transparência */
+    padding: 20px;
+}
+.sobreNos h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    color: 	#0000CD;
+    margin-bottom: 5%;
+    
+}
+.sobreNos h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #FFDAB9;
+   
+}
+.logomarca {
+    width: 60px;       /* define a largura da imagem */
+    height: auto;      /* ajusta a altura proporcionalmente */
+}
+
+

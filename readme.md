@@ -1,7 +1,7 @@
 ## 💻 Projeto: Site de Empresa Fictícia
 
 <p align="center">
-  <img src="img/Tech.gif" alt="Tela do sistema" width="500"/>
+  <img src="img/Tech.gif" alt="Tela do sistema" width="300"/>
 </p>
 
 Este projeto é um site de uma empresa fictícia, desenvolvido com o objetivo de praticar e consolidar meus conhecimentos em **HTML**, **CSS** e **JavaScript**.

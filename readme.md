@@ -19,6 +19,6 @@ Este projeto é um site de uma empresa fictícia, desenvolvido com o objetivo de
 ### 🚀 Funcionalidades implementadas
 - Layout responsivo com CSS Flexbox/Grid.
 - Menu de navegação funcional.
-- Animações e interações básicas com JavaScript.
+- Interações básicas com JavaScript.
 
 ---
